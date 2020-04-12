@@ -7,3 +7,5 @@ foreach($data as $key => $v){
 }
 ?>
 </ul>
+<h3>Preview</h3>
+<img src="<?php echo 'upload_file/'.$data['file_name'] ?>" alt="Hasil upload">
